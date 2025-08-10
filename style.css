@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: forestgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #2c5e2e; /* Demonstrates border in Box Model */
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #2c5e2e;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.main-nav a:hover {
+    background-color: #1f441f;
+    border-radius: 4px;
+}
+
+/* Sections */
+.intro, .services {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #ccc; /* Border for Box Model visualization */
+    box-sizing: border-box;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Cards */
+.card {
+    background-color: #e9f5e9;
+    border: 1px solid forestgreen;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box; /* Keeps width consistent with padding and border */
+}
+
+/* Footer */
+footer {
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
